@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webinar Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .mentor-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .mentor-details {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .mentor-details img {
+            border-radius: 50%;
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        .session-card {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .session-card h2 {
+            color: #333;
+        }
+
+        .session-info {
+            margin-top: 10px;
+            color: #666;
+        }
+
+        .interactive-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .interactive-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Webinar Page</h1>
+    </header>
+
+    <div class="mentor-card">
+        <div class="mentor-details">
+            <img src="mentor-photo.jpg" alt="Mentor Photo">
+            <h2>Mentor Name</h2>
+            <p>Mentor Information Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+
+    <div class="session-card">
+        <h2>Webinar Session Information</h2>
+        <div class="session-info">
+            <p><strong>Date:</strong> January 20, 2024</p>
+            <p><strong>Time:</strong> 2:00 PM - 4:00 PM</p>
+            <p><strong>Topic:</strong> Interactive Web Design</p>
+            <!-- Add more session-related information as needed -->
+        </div>
+        <button class="interactive-button" onclick="startInteractiveSession()">Start Interactive Session</button>
+    </div>
+
+    <script>
+        function startInteractiveSession() {
+            // Add your interactive code here
+            alert('Interactive session started!');
+            window.location.href = "index.html";
+            
+        }
+    </script>
+
+</body>
+</html>
